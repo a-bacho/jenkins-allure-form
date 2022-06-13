@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Dz",
+    "children" : [ {
+      "name" : "dz()",
+      "uid" : "44128caa05c54483",
+      "parentUid" : "f01cf5026e930a2092a8a6cb4a47c322",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655135843040,
+        "stop" : 1655135868946,
+        "duration" : 25906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f01cf5026e930a2092a8a6cb4a47c322"
+  } ]
+}

@@ -1,0 +1,534 @@
+{
+  "uid" : "44128caa05c54483",
+  "name" : "dz()",
+  "fullName" : "Dz.dz",
+  "historyId" : "a7b7c361ee1a52dd1e3e33d2a0314243",
+  "time" : {
+    "start" : 1655135843040,
+    "stop" : 1655135868946,
+    "duration" : 25906
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1655135842909,
+      "stop" : 1655135842951,
+      "duration" : 42
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+      "time" : {
+        "start" : 1655135843171,
+        "stop" : 1655135855418,
+        "duration" : 12247
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"webdriver\") create()",
+        "time" : {
+          "start" : 1655135843181,
+          "stop" : 1655135854024,
+          "duration" : 10843
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"#firstName\") set value(Johny)",
+      "time" : {
+        "start" : 1655135855509,
+        "stop" : 1655135856263,
+        "duration" : 754
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#lastName\") set value(Depp)",
+      "time" : {
+        "start" : 1655135856268,
+        "stop" : 1655135856917,
+        "duration" : 649
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#userEmail\") set value(johny@depp.com)",
+      "time" : {
+        "start" : 1655135856918,
+        "stop" : 1655135857482,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#genterWrapper/by text: Male\") click()",
+      "time" : {
+        "start" : 1655135857496,
+        "stop" : 1655135858052,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#currentAddress\") scroll into view(true)",
+      "time" : {
+        "start" : 1655135858053,
+        "stop" : 1655135858283,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#currentAddress\") get wrapped element()",
+        "time" : {
+          "start" : 1655135858054,
+          "stop" : 1655135858174,
+          "duration" : 120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"#userNumber\") set value(2222222222222)",
+      "time" : {
+        "start" : 1655135858284,
+        "stop" : 1655135858850,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#dateOfBirthInput\") click()",
+      "time" : {
+        "start" : 1655135858851,
+        "stop" : 1655135859365,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".react-datepicker__month-select\") select option(May)",
+      "time" : {
+        "start" : 1655135859368,
+        "stop" : 1655135860128,
+        "duration" : 760
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".react-datepicker__year-select\") select option(2010)",
+      "time" : {
+        "start" : 1655135860129,
+        "stop" : 1655135860831,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".react-datepicker__day--030:not(.react-datepicker__day--outside-month)\") click()",
+      "time" : {
+        "start" : 1655135860832,
+        "stop" : 1655135861266,
+        "duration" : 434
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#hobbiesWrapper/by text: Reading\") click()",
+      "time" : {
+        "start" : 1655135861266,
+        "stop" : 1655135861806,
+        "duration" : 540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#hobbiesWrapper/by text: Sports\") click()",
+      "time" : {
+        "start" : 1655135861809,
+        "stop" : 1655135862326,
+        "duration" : 517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") set value(science)",
+      "time" : {
+        "start" : 1655135862330,
+        "stop" : 1655135862997,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#subjectsInput\") press enter()",
+      "time" : {
+        "start" : 1655135862998,
+        "stop" : 1655135863428,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#uploadPicture\") upload file(src/test/resources/img/peterthegreat.png)",
+      "time" : {
+        "start" : 1655135863429,
+        "stop" : 1655135863911,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#currentAddress\") set value(Main street)",
+      "time" : {
+        "start" : 1655135863912,
+        "stop" : 1655135864467,
+        "duration" : 555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#state\") click()",
+      "time" : {
+        "start" : 1655135864467,
+        "stop" : 1655135864915,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#stateCity-wrapper/by text: NCR\") click()",
+      "time" : {
+        "start" : 1655135864916,
+        "stop" : 1655135865418,
+        "duration" : 502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#city\") click()",
+      "time" : {
+        "start" : 1655135865419,
+        "stop" : 1655135865807,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#stateCity-wrapper/by text: Noida\") scroll to()",
+      "time" : {
+        "start" : 1655135865808,
+        "stop" : 1655135866236,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#stateCity-wrapper/by text: Noida\") click()",
+      "time" : {
+        "start" : 1655135866237,
+        "stop" : 1655135866721,
+        "duration" : 484
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#submit\") click()",
+      "time" : {
+        "start" : 1655135866722,
+        "stop" : 1655135867194,
+        "duration" : 472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#example-modal-sizes-title-lg\") should have(text \"Thanks for submitting the form\")",
+      "time" : {
+        "start" : 1655135867215,
+        "stop" : 1655135867564,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "addAttachments",
+    "time" : {
+      "start" : 1655135867580,
+      "stop" : 1655135868921,
+      "duration" : 1341
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1655135868784,
+        "stop" : 1655135868921,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "18544ea2fe9ae575",
+      "name" : "Last screenshot",
+      "source" : "18544ea2fe9ae575.png",
+      "type" : "image/png",
+      "size" : 133139
+    }, {
+      "uid" : "2c157ff404564512",
+      "name" : "Page source",
+      "source" : "2c157ff404564512.html",
+      "type" : "text/plain",
+      "size" : 49664
+    }, {
+      "uid" : "fe3f50dcb0a3bd00",
+      "name" : "Browser console logs",
+      "source" : "fe3f50dcb0a3bd00.txt",
+      "type" : "text/plain",
+      "size" : 131
+    }, {
+      "uid" : "88b75ef166883fdb",
+      "name" : "Video",
+      "source" : "88b75ef166883fdb.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:Dz]/[method:dz()]"
+  }, {
+    "name" : "host",
+    "value" : "Ksenias-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "24340@Ksenias-MacBook-Air.local.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Dz"
+  }, {
+    "name" : "testClass",
+    "value" : "Dz"
+  }, {
+    "name" : "testMethod",
+    "value" : "dz"
+  }, {
+    "name" : "suite",
+    "value" : "Dz"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44128caa05c54483.json",
+  "parameterValues" : [ ]
+}

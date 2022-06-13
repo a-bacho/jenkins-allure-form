@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
-public class TestBase1 {
+public class TestBase {
 
     @Test
     @BeforeAll
