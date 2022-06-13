@@ -1,21 +1,28 @@
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.BeforeAll;
+import io.qameta.allure.Step;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
+import static io.qameta.allure.Allure.step;
 
-public class Dz {
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.startMaximized = true;
-    }
+
+public class Dz extends TestBase1 {
+
     @Test
+    @Step
     void dz() {
+        step("Open registration form", () -> {
+            open("/automation-practice-form");
+            $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
+            executeJavaScript("$('footer').remove()");
+            executeJavaScript("$('#fixedban').remove()");
+        });
+        step("Fill registration form", () -> {
              open("https://demoqa.com/automation-practice-form");
         $("#firstName").setValue("Johny");
         $("#lastName").setValue("Depp");
@@ -42,9 +49,10 @@ public class Dz {
         $("#city").click();
         $("#stateCity-wrapper").$(byText("Noida")).scrollTo().click();
         $("#submit").click();
-
-        $("#example-modal-sizes-title-lg").shouldHave(Condition.text("Thanks for submitting the form"));
-
+        });
+        step("Verify form data", () -> {
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+        });
 
     }
 }
