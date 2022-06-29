@@ -14,7 +14,7 @@ public class Dz extends TestBase {
 
     @Test
     @DisplayName("Successful fill registration test")
-    void dz() {
+    void dz () {
         step("Open registration form", () -> {
             open("/automation-practice-form");
             $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
@@ -57,3 +57,4 @@ public class Dz extends TestBase {
 
     }
 }
+
