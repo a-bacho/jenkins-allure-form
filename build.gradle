@@ -78,4 +78,9 @@ task owner(type: Test) {
     tasks.withType(Test) {
         systemProperties(System.getProperties())
 }
+    dependencies {
+        testImplementation(
+                "org.aeonbits.owner:owner:1.0.12",
+        )
+    }
 }
